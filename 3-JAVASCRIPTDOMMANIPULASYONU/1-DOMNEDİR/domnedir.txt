@@ -1,0 +1,8 @@
+DOM --> DOCUMENT OBJECT MODEL (DOKÜMAN OBJE MODELİ)
+
+<html> --> <head> & <body> html'in çocuklarıdır
+<body> --> <a> <h1> vs bodynin çocuklarıdır
+<a> --> href  href a'nın bir attributeudur.
+basamak basamak elementlere ulaşabiliriz.
+komple <html> bir dökümandır
+
