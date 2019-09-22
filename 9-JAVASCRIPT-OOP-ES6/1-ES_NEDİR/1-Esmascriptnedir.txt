@@ -1,0 +1,4 @@
+//ESMASCRIPT NEDİR
+//https://www.w3schools.com/js/js_versions.asp
+
+//tarayıcılar es5 desteklerken bizim es6 yazabilmemizi sağlayan şey babel https://babeljs.io/
