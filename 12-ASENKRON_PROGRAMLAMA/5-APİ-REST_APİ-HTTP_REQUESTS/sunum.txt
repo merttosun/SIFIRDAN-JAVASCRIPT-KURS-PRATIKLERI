@@ -1,0 +1,20 @@
+//Application Programming Interface
+//Bir uygulamanın bir takım fonksiyonlarının başka uygulamalar tarafından kullanılmasını sağlayan arayüz
+//örn: github Api 
+//Request ve Response (istek ve cevap)
+
+
+//REST API
+REST mimarisi, SOAP mimarisi
+Rest çok hızlı istek ve dönüş yapar
+Representatioanl State Transfer --> 
+Stateless(herhangi bir state tutmuyo istekleri vs kaydetmiyo), Http İstekleri , JSON(genelde json döndürür)
+Birçok programlama dili (python , js , php vs)
+Apilerin yapısı değişebilir
+
+// HTTP İSTEKLERİ
+
+Get: endpoint'e (url) göre belli verileri alır
+post : endpoint'e göre belli bir veriyi gönderir
+put: endpoint e göre belli bir veriyi günceller
+delete: endpoint e göre belli bir veriyi siler

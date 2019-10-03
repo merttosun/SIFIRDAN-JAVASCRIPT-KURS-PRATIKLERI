@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Mert TOSUN", 
+        "department":"Bilişim",
+        "salary":3500
+    },
+    {
+        "name":"Aslı Eda İnanç",
+        "department":"Test",
+        "salary":4000
+    },
+    {
+        "name":"Mustafa Murat Çoşkun",
+        "department":"Yazılım",
+        "salary":5000
+    }
+]

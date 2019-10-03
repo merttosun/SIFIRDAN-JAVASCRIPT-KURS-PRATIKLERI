@@ -1,0 +1,33 @@
+//senkron işlemler
+
+process1(); 5 sn
+process2(); 10 sn 
+process3(); 3 sn
+
+
+şeklinde senkron işlemlerimiz olsun
+bu işlemler sırasıyla gerçekleşir, toplam 18 sn sürer
+2. işlemin başlaması için birinci işlemin bitmesi gerçekleşir
+başlamak için başka bir işlemin bitmesine ihtiyacı olan işlemlere senkron işlem denir
+
+
+//Asenkron işlemler
+
+process1(); 10 sn
+process2(); 3 sn
+process3(); 7 sn
+
+
+işlemler birbirini beklemez . 10. sn da üçü de bitmiş olur 
+
+// ASENKRON YAPILAR
+AJAX asenkron javascript and xml 
+FETCH API
+NODE.JS ( Javascriptin server tarafında çalışan bir frameworku)
+
+
+//Asenkron İşlemlerle Mücadele
+Callback(es6 öncesi)
+Es6 Promise
+Async & Await 
+

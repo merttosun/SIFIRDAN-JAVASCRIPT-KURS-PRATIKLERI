@@ -1,0 +1,30 @@
+JSON nedir ? 
+JSON: JavaScript Object Notation
+(JavaScript Obje Gösterimi)
+
+{
+    "name":"Mert",
+    "age": 25,
+    "salary" : 4999
+}
+
+Asenkron bir şekilde veri alışverişi yaptığımızda JSON objelerini kullanıyoruz
+Örneğin Github Rest Api dan veri aldıgımızda bu veriler JSON objesi olarak geliyo
+
+//AJAX 
+Asynchronous Javascript and XML
+#Veri alma ve veri gönderim asenkron olarak
+#sayfa yenilenmeden herhangi bir rest apidan veya kendi serverımızdan asenkron veri almak
+#arka planda asenkron işlemler
+#xhr objesi (XMLHTTPREQUEST (tarayıcılarımız içinde bulunan bir obje))
+#JSON & XML çoğu rest api json objesi döndürür işlemler bu obje üzerinden ypaılır
+
+//AJAX NASIL ÇALIŞIR
+
+örn: bir butona bastıgımızda xhr oluşur (get,post,put,delete vb)
+bu request int üzerinden server a ulaşır
+bu isteğin türüne göre bir response oluşur 
+bu response xml ve json olaabilir.
+bu datayı int üzerinden server bize gönderir
+biz bu datayı arkaplanda asenkron olarak kullanıyoruz
+
