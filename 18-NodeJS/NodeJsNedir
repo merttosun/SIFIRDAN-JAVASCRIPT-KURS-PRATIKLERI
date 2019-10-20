@@ -1,0 +1,33 @@
+Js'in backend tarafında çalışmasını sağlar
+
+Js ilk çıktıgı zamanalrda sadece frontend tarafında sayfalara dinamizim katmamızı saglıyodu
+(dom üzerinde gezinme , yeni element olusturma vs)
+
+Google 2008 de v8 js motoru teknolojisini cıkardı, v8 js kodlarını makina kodlarına çevirip js yi hızlı bir şekilde çalıştırıyordu
+v8 motoru sayesinde tarayıcı olmadan js kodları çalıştırılabilir hale geldi
+
+v8 çıktıktan  sonra sunucu tarafında v8 motoru kullaNILARAk tarayıcıdan tamamen bagımsız olarak
+server sideda da çalışılabilir hale getirildi ve NodeJs çıkmış oldu
+
+Geliştirilerek açık kaynaklı bi proje haline geldi
+
+npm: node package manager
+
+Node'un çalışma mantığı :Asenkron ve Event driven şekilde çalışır
+Örn: bizim node js sunucumuz ona herhangi bir request geldiğinde bu requestin responseu gelene kadar
+diğer requestleri engellemez
+
+Paketleme ve Paket Kullanma:
+Herhangi bi js projesinde , mail gönderme şifreleme işlemleri veritabanı baglantısı işlemleri oldugunda
+paket sistemi kullanılır 
+npmjs.com üzerinden paketleri indirip projelere dahil edebiliriz, react bile bi pakettir aslında
+
+npm install paketismi şeklinde paket indirilebilir
+
+node index.js şeklinde çalıştırmak istediğimiz dosya adını yazarız
+
+npm root -g global paketlerin nerde oldugunu gösterir(cmdde)
+
+sadece npm install yazarsak (proje klasöründe açtıgımız terminalde) package.json a bakacak dependenciesde bizim projemizin hangi modülleri kullandıgına bakacak ve indirecek
+
+bir paketi sadece devoplement dependencies olarak eklemek istediğimizde npm install webpack-cli --save-dev (sadece geliştirme ortamında kullanıcaksak modülelri)
